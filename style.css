@@ -1,0 +1,76 @@
+#nit{
+    color: black;
+    font-weight:lighter;
+}
+#bt1{
+    background-color: rgb(113, 238, 120);
+    border: 0.5px rgb(60, 255, 0) solid;
+    border-radius: 2px;
+    transition: 0.5s;
+    color: black;
+    font-weight: bolder;
+}
+#bt1:hover{
+    border-radius: 20px;
+}
+#bt2{
+    background-color:greenyellow ;
+    border: transparent;
+    border-radius: 5px;
+}
+#h6{
+    font-weight: lighter;
+    font-size: 15px;
+}
+#herohead{
+    font-size: 70px;
+}
+#bt3{
+    background-color:greenyellow ;
+    border: 0.5px rgb(60, 255, 0) solid;
+    border-radius: 2px;
+    transition: 0.5s;
+
+
+}
+#bt3:hover{
+    
+    border-radius: 20px;
+}
+#hero{
+    background-color: rgb(4, 41, 36);
+    
+}
+#p1{
+    font-size: 15px;
+    font-weight: lighter;
+}
+#hh{
+    font-size: 45px;
+    color: black;
+}
+#pp{
+    line-height: 0px;
+}
+#card{
+    border: transparent;
+}
+#h2{
+    font-size: 60px;
+    color: black;
+}
+#pp1{
+    font-size: 11px;
+    
+}
+#icon{
+    width: 50px;
+}
+@media screen and (min-width: 1024px)
+{
+    #hero{
+        background: url(img/kv2kwhst1pwfaq58z-lower-left.svg) bottom -1px left -40px,url(img/kv2kxa02sodwayqj7-lower-right.svg) bottom -1px right -600px;    
+        background-color: rgb(4, 41, 36);
+        background-repeat: no-repeat;
+    }
+}
